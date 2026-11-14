@@ -2,8 +2,6 @@
 
 **Sub-byte packet fragment quantization and runtime bytecode synthesis for line-rate polymorphic DDoS mitigation.**
 
-**Preprint:** [ResearchGate](https://www.researchgate.net/publication/417651816_QXDP_Sub-Byte_Packet_Quantization_and_Runtime_Bytecode_Synthesis_for_Line-Rate_Polymorphic_DDoS_Mitigation)
-
 QXDP is a complete eBPF/XDP system that compresses packet headers and payload fragments into 64-bit quantized tokens, tracks their frequency distribution in a dual-view sketch data structure, and synthesizes specialized XDP programs at runtime to drop polymorphic attack traffic at line rate with zero map lookups on the fast path.
 
 ---
